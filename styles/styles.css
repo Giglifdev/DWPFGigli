@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size: 100%;
+  vertical-align:baseline;
+  }
+
+
+/* logo */
+.head .logo  {
+  color:#3C1053;
+  padding:20px 30px 0px;
+  margin: 0px 0px 10px;
+  font-size:250%;
+  text-transform: uppercase;
+  font-family: "kanit";
+
+
+
+}
+
+body {
+  height: 1400px;
+}
+
+header {
+    
+    background-size:cover ;
+    }
+
+body .train {
+  width: 100%;
+}
+
+
+
+
+
+.head .semilogo {
+  color:#3C1053;
+  padding: 0px 25px 20px;
+  margin:0px 25px 0px;
+  display:flex;
+  height:none;
+  width: none;
+  font-family: "kanit";
+
+
+}
+
+
+
+
+/* botones */
+.navbar1 {
+  display:flex;
+  position:absolute !important;
+  right:20px !important;
+  top:30px !important;
+  text-transform: uppercase;
+  text-decoration:none;
+}
+
+/* navbarbootstrap workouts */
+
+.container-fluid .navbar-brand {
+  color:#3C1053;
+  padding:10px 30px 0px;
+  margin: 0px 0px 10px;
+  font-size:180%;
+  position: -webkit-sticky;
+  position:relative;
+  bottom:20px;
+  left:10px;
+  bottom:10px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "kanit";
+}
+
+.logonav {
+  color:#3C1053;
+  padding:10px 30px 0px;
+  margin: 0px 0px 10px;
+  font-size:180%;
+  position: -webkit-sticky;
+  position:relative;
+  bottom:20px;
+  left:10px;
+  bottom:10px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "kanit";
+}
+.semilogonav {
+  color:#3C1053;
+  white-space: nowrap;
+  padding: 0px 25px 20px;
+  margin:0px 25px 0px;
+  position:relative;
+  right:200px;
+  top:30px;
+  height:none;
+  width: none;
+  font-size:18px;
+  font-family: "kanit";
+}
+
+.container-fluid .semilogonav {
+  color:#3C1053;
+  white-space: nowrap;
+  padding: 0px 25px 20px;
+  margin:0px 25px 0px;
+  position:relative;
+  right:240px;
+  top:30px;
+  height:none;
+  width: none;
+  font-size:18px;
+  font-family: "kanit";
+  
+}
+
+
+
+.container-fluid  {
+  height: 120px ;
+  position:-webkit-sticky;
+  position:relative;
+  bottom:8px;
+  background:#333333;
+  
+
+}
+
+
+
+
+
+.collapse   {
+
+  height: 120px;
+  /*position:-webkit-sticky;*/
+  padding:70px 20px 0px ;
+  margin:10px 10px 10px ;
+
+  text-transform: uppercase;
+  text-decoration:none;
+  background-color: #333333;
+}
+
+.collapse a {
+  color:rgb(221, 24, 24);
+  border: 6px solid #3C1053 ;
+  margin-bottom:15px;
+  padding:5px 5px 5px;
+  border-radius: 1rem;
+  box-shadow: 0 .2rem 1rem rgb(000, 24, 24);
+  text-decoration:none;
+  margin-left:50px;
+  position:relative;
+  bottom:10px;
+  right:170px;
+  font-family:"oswald";
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100% auto;
+  font-family:"playfair-display" ;
+}
+.container h2 {
+  font-size:60px;
+
+}
+
+.container h5 {
+  font-size:40px;
+  line-height: 1.3em;
+  word-spacing: 0.4em;
+  
+
+}
+.col-xxl-4{
+  border:3px solid #000000;
+  border-radius: 1rem;
+  box-shadow: 0 .5rem 3rem rgb(000, 24, 24);
+
+}
+
+
+
+
+.image {
+
+  position:relative;
+  right:104px;
+  
+}
+
+/* @media screen and (min-width: 768px) { */
+  /* .col-xxl-4 {
+    display: grid;
+    grid-template-columns:
+    /* grid-template-rows: 
+    grid-template-areas: */
+
+
+/* navbarbootstrap workouts */
+
+
+
+.navbar1  a {
+
+  color:rgb(221, 24, 24);
+  border: 6px solid #3C1053 ;
+  margin-bottom: 15px;
+  border-radius: 1rem;
+  box-shadow: 0 .2rem 1rem rgb(000, 24, 24);
+  text-decoration:none;
+  margin-left:70px;
+  font-family:"oswald";
+
+
+
+}
+
+
+.navbar1 a:hover {
+  background: #3f3f3f;
+  }
+
+
+.head {
+  height: 120px !important;
+  background:#333333;
+  
+  
+  }
+
+.lifting img {
+    border-width: 2px;
+    border-style:solid;
+    border-color: #000;
+    position:relative;
+    top:159px;
+
+}
+
+.train img {
+  height: 920px;
+  width: 1499px;
+
+  
+}
+
+.foodie img {
+  
+  height: 800px;
+  width: 1100px;
+  position: absolute;
+  right:379px;
+  top:120px;
+  border-width: 2px;
+  border-style:solid;
+  border-color: #000;
+
+}
+
+.content-header h3{
+  color:#B93737;
+  font-size: 200%;
+  position:absolute;
+  top:450px;
+  right:700px;
+  width:200px;
+  font-family: "montserrat";
+
+}
+.content-line h2  {
+  color: #fff;
+  font-size: 300%;
+  position:absolute;
+  top:550px;
+  right:570px;
+  font-family: "montserrat";
+
+}
+
+
+
+.content-workout {
+  color:#000000;
+  font-family:"playfair-display" ;
+  position: absolute;
+  top:160px;
+  left:1030px;
+  border:2rem solid  #3f3f3f;
+  border-radius: 1rem;
+  box-shadow: 0 .2rem 1rem rgb(000, 24, 24);
+  
+}
+
+.content-workout h3 {
+  font-size: 200%;
+  line-height: 1.5em;
+  margin-top: 45px;
+  font-family:"playfair-display" ;
+  word-spacing: 0.5em;
+  
+  }
+
+.content-workout h2 {
+  font-size: 220%;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-family:"playfair-display" ;
+  
+  
+  }
+
+  .nutrition h2 {
+
+    font-family: "playfair-display";
+    font-size:180%;
+    border-width: 3px;
+    border:2rem solid  #3f3f3f;
+    border-radius: 1em;
+    position: absolute;
+    top:140px;
+    right:20px;
+    line-height: 1.3em;
+    word-spacing: 0.4em;
+    text-align: center;
+
+  }
+
+
+.content-about  {
+  border:1rem solid  #3f3f3f;
+  border-radius: 1em;
+  border-width: 4px;
+  padding: 20px 390px 320px;
+  margin:20px 650px 30px;
+  font-family: "playfair-display";
+  display: flex;
+  text-align: justify;
+  position: relative;
+  right:600px;
+  line-height: 1.5em;
+
+
+  
+}
+
+.content-about h2  {
+
+  width: 600px;
+  position: relative;
+  right:300px;
+  line-height: 1.2em;
+  word-spacing: 0.5em;
+  font-size:45px ;
+  white-space:normal;
+  justify-content: center;
+  text-align: justify;
+  font-family: "playfair-display";
+  
+  
+  }
+
+.content-about h3  {
+  font-size:40px;
+  position: relative;
+  right:300px;
+  top:120px;
+  line-height: 1.8em;
+  white-space: 0.5em;
+  font-family: "playfair-display";
+  }
+
+.content-about u {
+  text-transform: uppercase;
+}
+
+.content-about h4 {
+  font-size: 40px;
+  position: relative;
+  right: 300px;
+  top:200px;
+  line-height: 1.8em;
+  white-space: 0.5em;
+  font-family: "playfair-display";
+}
+
+
+.info h3 {
+
+  font-size: 35px;
+  position: absolute;
+  top:600px;
+  left:150px;
+  margin: 10px 450px 20px;
+  padding: 20px 250px 0px;
+  
+  
+}
+
+
+body  {
+  background-color: rgb(221, 24, 24);
+
+  
+  
+  }
+
+body .content-about h2 p {
+    height: 100px;
+  }
+
+
+
+.infoaboutme , strong {
+  color:#fff;
+  font-size: 30px;
+  position:absolute;
+  top:360px;
+  left: 30px;
+  width: 90%;
+  
+  font-family: "montserrat";
+  
+
+
+}
+
+
+
+.parrafo , p  {
+  color:#000; 
+  font-size: 25px;
+  position: absolute;
+  top:560px;
+  left: 25px;
+  width: 70%;
+  line-height: 1.5em;
+  letter-spacing: -1px;
+  word-spacing: 0.50em;
+  font-family: "montserrat";
+
+
+  
+}
+footer .copyright {
+
+  position: absolute;
+  top: 1500px;
+  left:990px;
+  line-height: 2;
+  text-align:right;
+  font-family: "montserrat";
+  white-space: nowrap;
+  
+  
+}
+.copyright h2{
+  font-size:15px;
+  
+}
+
+footer .redes{
+display: flex;
+width: 450px;
+justify-content:space-between;
+position: absolute;
+top: 1160px;
+left:1030px
+
+
+
+  
+  }
+
+.arrow {
+  position: absolute;
+  left:1100px;
+  top:600px;
+  margin-right: 300px;
+  height: 120px;
+
+}
+
+.pdf {
+  position: absolute;
+  left: 1300px;
+  top:600px;
+  height: 100px;
+  margin-right: 300px;
+
+  
+
+}
+
+.contact {
+display:flex;
+justify-content: left;
+font-size: 40px;
+}
+
+.contact h3 {
+  font-size:45px;
+  position: relative;
+  left:750px;
+  white-space: nowrap;
+  font-family: "playfair-display";
+  
+
+}
+
+.contact h1 {
+  font-size:60px;
+  position: relative;
+  left:300px;
+  top:100px;
+  white-space: nowrap;
+  font-family: "playfair-display";
+}
+
+.contact h4 {
+  font-size:30px;
+  position: relative;
+  right:230px;
+  top:190px;
+  text-align:left;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  word-spacing: 0.6em;
+  font-family: "playfair-display";
+}
+
+.copynutrition h2 {
+  position: absolute;
+  right:5px;
+  top:1400px;
+  white-space: nowrap;
+  font-family: "montserrat";
+  
+  
+
+
+}
+
+
+.copyservices h2 {
+  position: absolute;
+  right:20px;
+  top:1500px;
+  white-space: nowrap;
+  font-family: "montserrat";
+
+
+}
+
+.copyright2 {
+  position: absolute;
+  top: 1500px;
+  left:900px;
+  line-height: 2;
+  text-align:right;
+  font-family: "montserrat";
+  white-space: nowrap;
+  
+}
+.copyright2 h2 {
+  font-size: 18px;
+}
+
+.redes4  {
+  display: flex;
+  width: 500px;
+  justify-content:space-between;
+  position: absolute;
+  top: 460px;
+  left:790px
+  
+}
+
+
+
+/*mobile view form*/
+
+.col-sm-7 {
+  margin-left:600px;
+  
+}
+
+.col-sm-7 h3 {
+  font-size: 50px;
+  font-family: "montserrat";
+}
+
+.col-sm-7 h4 {
+  font-size: 40px;
+  font-family: "montserrat";
+}
+
+.col-sm-7 i {
+  font-size: 30px;
+  font-family: "montserrat";
+}
+
+h5 , u{
+  margin-bottom:2002px;
+}
+
+.col-10-sm {
+  position:relative;
+  bottom:290px;
+}
+
+button {
+  margin-right:30px ;
+  font-size:25px;
+  color:#333333;
+  cursor:pointer;
+  display:none;
+
+}
+
