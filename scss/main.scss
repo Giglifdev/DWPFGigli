@@ -1,0 +1,461 @@
+@import "./partials.scss/media-queries";
+@import "./partials.scss/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+// Definición de variables
+$color-rojo: #B93737;
+$color-blanco:#fff;
+$color-parrafo-home:#262626;
+$font-montserrat: "montserrat";
+$primary-color: #B93737;
+$secondary-color: #212529;
+
+
+
+
+
+
+
+
+
+// Resets
+    *{
+        margin:0;
+        padding:0;
+        border:0;
+        font-size: 100%;
+        vertical-align:baseline;
+    }
+    
+    body {
+        overflow-x: hidden;
+        }
+
+
+        
+        .navbar {
+            .navbar-toggler {
+                position:absolute;
+                bottom:0px;
+                right:0px;
+                z-index:1;
+            }
+            background-color: $secondary-color;
+            height: 120px;
+            position: -webkit-sticky;
+            position: relative;
+            bottom: 8px;
+            
+            .navbar-brand {
+            color: $primary-color;
+            padding: 10px -2px 0px;
+            margin: 0px 0px 10px;
+            font-size: 180%;
+            position: -webkit-sticky;
+            position: relative;
+            bottom: 20px;
+            left: 10px;
+            top: 16px;
+            text-transform: uppercase;
+            font-size: 36px;
+            font-family: "kanit";
+            }
+            
+            .collapse {
+            height: 120px;
+            padding: 70px 20px 0px;
+            margin: 10px 10px 10px;
+            position: absolute;
+            right: 200px;
+            z-index:1;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: height 0.3s ease-in-out;
+            
+            a {
+                color: $primary-color;
+                margin: 20px 30px 20px;
+                padding: 5px 5px 5px;
+                border-radius: 1rem;
+                text-decoration: none;
+                margin-left: 50px;
+                position: relative;
+                bottom: 10px;
+                left: 120px;
+                font-family: "oswald";
+                
+                &.active {
+                background-color: $primary-color;
+                color: #fff;
+                }
+            }
+            }
+        }
+
+        .train {
+            position:relative;
+            img {
+                width: 100%;
+                
+            }
+            }
+            
+            .content-header {
+                h3.title {
+                    position: absolute;
+                    left: 50%;
+                    top: 25%;
+                    transform: translate(-50%, -50%);
+                    color: $primary-color;
+                    font-size: 1.5rem;
+                    margin-bottom: 0;
+                    z-index: 2;
+
+                
+                    @include tablet {
+                    font-size: 3rem;
+                    top:20%;
+                    left:92%;
+                    z-index: 2;
+                    color: $primary-color;
+                    }
+                
+                    @include mobile {
+                        font-size: 3rem;
+                        z-index:2;
+                        color:$primary-color;
+                        position: absolute;
+                        top: 80%;
+                        left: 48%;
+                        transform: translate(-50%, -50%);
+                    }
+                    @media screen and (min-width: 541px) and (max-width: 726px) and (max-height: 546px) {
+                        top: 60%;
+                        }
+                }
+                }
+        
+            .content-line {
+            h2.title {
+                position:absolute;
+                left:50%;
+                top:30%;
+                color:$color-blanco;
+                transform: translate(-50%, -50%);
+                font-size: 1.5rem;
+                margin-bottom: 0;
+                z-index: 2;
+
+                @include tablet {
+                    font-size: 3rem;
+                    top:30%;
+                    left:50%;
+                    z-index: 2;
+                    color: $color-blanco;
+                    }
+                
+                @include mobile {
+                        font-size: 3rem;
+                        z-index:2;
+                        color:$color-blanco;
+                        position: absolute;
+                        top: 95%;
+                        left: 48%;
+                        transform: translate(-50%, -50%);
+                    }
+                    @media screen and (max-width: 549px) and (max-height: 546px) {
+                        top: 70%;
+                        }
+                    }
+            }
+        
+
+            .infoaboutme {
+            h2 {
+                font-size: 3rem;
+                color:$color-blanco;
+                margin-bottom: 0;
+            }
+            }
+            
+            .parrafo {
+            p {
+                font-size: 2rem;
+                font-weight: bold;
+                text-align: justify;
+                color:$color-parrafo-home;
+                margin-bottom: 0;
+            }
+            }
+
+            .row {
+            .col-md-6, .col-sm-6 {
+                width: 50%;
+            }
+
+            .order-md-2 {
+                order: 2;
+            }
+            
+            .order-md-1 {
+                order: 1;
+            }
+            
+            .redes {
+                display: flex;
+                justify-content: center;
+        
+                img {
+                margin-right: 3rem;
+                position:relative;
+                left:50vh;
+                bottom:40vh;
+                }
+            }
+            
+            .text-center {
+                text-align: center;
+            }
+        
+            .text-md-right {
+                @include tablet {
+                    text-align: right;
+                }
+                }
+                
+            .copyright {
+                h2 {
+                white-space: nowrap;
+                position:relative;
+                left:102vh;
+                top:7vh;
+                font-size:25px;
+                font-family: "montserrat";
+                }
+            }
+            }
+
+
+            .col-xxl-4, .col-sm-4 {
+                background-color: #343a40;
+                color: $color-blanco;
+                text-align: justify;
+                margin-top: 4rem;
+                border-radius: 0.25rem;
+                padding: 2rem;
+                
+                h2.display-2 {
+                    font-size: 3rem;
+                    margin-bottom: 1rem;
+                }
+                
+                h5.display-5 {
+                    font-size: 1.5rem;
+                }
+
+                @include mobile {
+                padding: 1rem;
+                margin-top: 2rem;
+                max-width: 100%;
+                h2.display-2 {
+                    font-size: 2rem;
+                    margin-bottom: 0.5rem;
+                }
+                h5.display-5 {
+                    font-size: 1rem;
+                }
+                }
+                
+                
+                @include tablet {
+                padding: 1.5rem;
+                margin-top: 3rem;
+                
+                h2.display-2 {
+                    font-size: 2.5rem;
+                    margin-bottom: 0.75rem;
+                }
+                
+                h5.display-5 {
+                    font-size: 1.25rem;
+                }
+                }
+                @include desktop {
+                padding: 2rem;
+                margin-top: 4rem;
+                
+                h2.display-2 {
+                    font-size: 3rem;
+                    margin-bottom: 1rem;
+                }
+                
+                h5.display-5 {
+                    font-size: 1.5rem;
+                }
+                }
+            }
+
+.redessociales {
+        position:relative;
+        left:9vh;
+    
+    
+
+    @include mobile {
+        position:relative;
+        left:16vh;
+    }
+    @include tablet
+        {
+        position:relative;
+        left:12vh;
+        
+        @media screen and (min-width:583px) and (max-width:1069px){
+            position:relative;
+            right:20vh;
+        }
+    }
+    @include desktop {
+        position:relative;
+        left:12vh;
+
+}
+}
+
+
+.copyservices h2{
+    font-size:25px !important;
+    position:relative;
+    right:2vh;
+
+
+@include mobile {
+    position:relative;
+    left:60vh;
+}
+@media screen and (min-width:569px) and (max-width:635px) {
+    position:relative;
+    right:30vh;
+    font-size:15px !important;
+}
+
+@include tablet {
+    position:relative;
+    right:10vh;
+}
+
+}
+
+
+.foodie img {
+    width: 100%;
+    }
+
+.nutrition h2 {
+    margin-top: 20px;
+    }
+    
+    @include mobile {
+        .foodie img {
+        height: auto;
+        }
+    
+        .nutrition {
+        margin-top: 20px;
+        }
+    }
+
+    .content-about h2 {
+        font-size: 2rem;
+    }
+    
+    .content-about h3 {
+        font-size: 1.5rem;
+    }
+    
+    .content-about h4 {
+        font-size: 1.2rem;
+    }
+    
+    .info h3.title2 {
+        font-size: 1.5rem;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .content-about h2 {
+        font-size: 1.5rem;
+        }
+    
+        .content-about h3 {
+        font-size: 1.2rem;
+        }
+    
+        .content-about h4 {
+        font-size: 1rem;
+        }
+    
+        .info h3.title2 {
+        font-size: 1.2rem;
+        }
+    
+        .info .col-4 {
+        margin-top: 1rem;
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        .content-about h2 {
+        font-size: 1.8rem;
+        }
+    
+        .content-about h3 {
+        font-size: 1.3rem;
+        }
+    
+        .content-about h4 {
+        font-size: 1.1rem;
+        }
+    
+        .info h3.title2 {
+        font-size: 1.3rem;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        .content-about h2 {
+        font-size: 2rem;
+        }
+    
+        .content-about h3 {
+        font-size: 1.5rem;
+        }
+    
+        .content-about h4 {
+        font-size: 1.2rem;
+        }
+    
+        .info h3.title2 {
+        font-size: 1.5rem;
+        }
+    }
+
+        
+
+@include mobile {
+        .container {
+        height: 100%;
+        overflow: auto;
+        margin-bottom: 1.5rem;
+        padding-bottom: 2rem;
+            .medcontact {
+                font-size: 1.25rem;
+                margin-bottom: 0.5rem;
+                height: au;
+            }
+            }
+            }

@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+
+
+
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size: 100%;
+  vertical-align:baseline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbarbootstrap workouts */
+
+
+.container-fluid .navbar-brand {
+  color:rgb(221, 24, 24);
+  padding:10px 30px 0px;
+  margin: 0px 0px 10px;
+  font-size:180%;
+  position: -webkit-sticky;
+  position:relative;
+  bottom:20px;
+  left:10px;
+  top:16px;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "kanit";
+}
+
+
+
+
+.container-fluid  {
+  height: 120px ;
+  position:-webkit-sticky;
+  position:relative;
+  bottom:8px;
+  
+  
+
+}
+
+
+
+.collapse   {
+
+  height: 120px;
+  padding:70px 20px 0px ;
+  margin:10px 10px 10px ;
+  position:relative;
+  right:80px;
+  text-transform: uppercase;
+  text-decoration:none;
+  
+}
+
+.collapse a {
+  color:rgb(221, 24, 24);
+  margin: 20px 30px 20px;
+  padding:5px 5px 5px;
+  border-radius: 1rem;
+  text-decoration:none;
+  margin-left:50px;
+  position:relative;
+  bottom:10px;
+  left:120px;
+  font-family:"oswald";
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100% auto;
+  font-family:"playfair-display" ;
+}
+.container h2 {
+  font-size:60px;
+
+}
+
+.container h5 {
+  font-size:40px;
+  line-height: 1.3em;
+  word-spacing: 0.4em;
+  
+
+}
+
+
+
+
+
+.image img {
+
+  position:relative;
+  border-width: 2px;
+  border-style:solid;
+  border-color: #000;
+  position:relative;
+  top:30px;
+  right:101px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.content-header h3{
+  color:#B93737;
+  font-size: 200%;
+  position:absolute;
+  top:450px;
+  right:700px;
+  width:200px;
+  font-family: "montserrat";
+
+}
+
+
+.infoaboutme , strong {
+  color:#fff;
+  font-size: 30px;
+  position:absolute;
+  top:390px;
+  left: 16px;
+  width: 90%;
+  
+  font-family: "montserrat";
+  
+
+
+}
+
+
+
+.parrafo , p  {
+  color:#000; 
+  font-size: 25px;
+  position: absolute;
+  top:410px;
+  left: 15px;
+  width: 70%;
+  line-height: 1.5em;
+  letter-spacing: -1px;
+  word-spacing: 0.50em;
+  font-family: "montserrat";
+}
+
+.content-line h2  {
+  color: #fff;
+  font-size: 300%;
+  position:absolute;
+  top:550px;
+  right:570px;
+  font-family: "montserrat";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row .copyright {
+
+  position: relative;
+  top: 500px;
+  left:1525px;
+  line-height: 2;
+  text-align:right;
+  font-family: "montserrat";
+  white-space: nowrap;
+  
+  
+}
+.copyright h2 {
+  font-size:19px;
+  font-family: "montserrat";
+  position:relative;
+  top:700px;
+  right:790px
+  
+}
+
+.row .redes img{
+display: flex;
+width: 100px;
+padding-right: 50px;
+justify-content:space-between;
+position: relative;
+top: 600px;
+left: 350px;
+
+
+
+
+  }
+
+
+.pdf .arrow {
+  position: absolute;
+  left: 800px;
+  top:780px;
+  height: 100px;
+  margin-right: 300px;
+
+  
+
+}
+
+.contact {
+display:flex;
+justify-content: left;
+font-size: 40px;
+}
+
+.contact h3 {
+  font-size:45px;
+  position: relative;
+  left:750px;
+  white-space: nowrap;
+  font-family: "playfair-display";
+  
+
+}
+
+.contact h1 {
+  font-size:60px;
+  position: relative;
+  left:300px;
+  top:100px;
+  white-space: nowrap;
+  font-family: "playfair-display";
+}
+
+.contact h4 {
+  font-size:30px;
+  position: relative;
+  right:230px;
+  top:190px;
+  text-align:left;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+  word-spacing: 0.6em;
+  font-family: "playfair-display";
+}
+
+.copynutrition h2 {
+  position: absolute;
+  right:5px;
+  top:1400px;
+  white-space: nowrap;
+  font-family: "montserrat";
+  
+  }
+
+  .foodie img {
+    margin-top:20px;
+    position:relative;
+    right:5px;
+    border: 2px solid #000;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 600px;
+  }
+.nutrition {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+.nutritiontext h2 {
+  margin-top: 30px;
+  font-size: 45px 
+}
+
+.copynutrition h2 {
+  font-size:20px;
+}
+
+.copyservices h2 {
+  position: absolute;
+  right:20px;
+  top:1500px;
+  white-space: nowrap;
+  font-family: "montserrat";
+
+
+}
+
+.copyright2 {
+  position: absolute;
+  top: 1500px;
+  left:900px;
+  line-height: 2;
+  text-align:right;
+  font-family: "montserrat";
+  white-space: nowrap;
+  
+}
+.copyright2 h2 {
+  font-size: 18px;
+}
+
+.redes4  {
+  display: flex;
+  width: 500px;
+  justify-content:space-between;
+  position: absolute;
+  top: 460px;
+  left:790px
+  
+}
+
+.medcontact {
+  font-size:50px;
+  line-height: 1;
+  white-space: nowrap;
+  font-family: "montserrat";
+}
+.medcontact2 {
+  font-size:34px;
+  margin-top:30px;
+  line-height: 1;
+  white-space: nowrap;
+  font-family: "montserrat";
+}
+
+.medcontact3 {
+  font-size:32px;
+  line-height: 1.5;
+  letter-spacing: 0.6px;
+  word-spacing: 0.5em;
+  margin: 40px 10px 20px;
+  text-align: justify;
+  font-family: "montserrat";
+}
+
+
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    position: absolute;
+    right: 300px;
+  }
+}
+@media (max-width: 576px) {
+  .redes-icon {
+    height: 40px;
+    width: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-collapse {
+    padding-right: 11px;
+    justify-content: flex-start;
+
+  }
+}
+
+@media (max-width: 576px) {
+  .redes {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .redes img {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 60px;
+    margin-right: 15px;
+  }
+}
+
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+.copyservices .my-3 {
+  font-size: 10px;
+  position:relative;
+  top:222px;
+  left:480px;
+  font-family: "montserrat";
+}
+
+.w-100 {
+  margin-top:35px;
+  height: 700px;
+}
+
+.copyright3 {
+  position: absolute;
+  top: 850px;
+  left:860px;
+  line-height: 2;
+  text-align:right;
+  font-family: "montserrat";
+  white-space: nowrap;
+}
+
+
+.copyright3 h2 {
+  font-size:20px;
+}
