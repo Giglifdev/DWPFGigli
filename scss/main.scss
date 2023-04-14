@@ -1,4 +1,3 @@
-@import "./partials.scss/media-queries";
 @import "./partials.scss/mixins";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
@@ -23,6 +22,7 @@ $secondary-color: #212529;
 
 
 
+
 // Resets
     *{
         margin:0;
@@ -36,8 +36,7 @@ $secondary-color: #212529;
         overflow-x: hidden;
         }
 
-
-        
+ /* navbar + logo */
         .navbar {
             .navbar-toggler {
                 position:absolute;
@@ -97,365 +96,272 @@ $secondary-color: #212529;
             }
         }
 
-        .train {
-            position:relative;
-            img {
-                width: 100%;
-                
-            }
-            }
-            
-            .content-header {
-                h3.title {
-                    position: absolute;
-                    left: 50%;
-                    top: 25%;
-                    transform: translate(-50%, -50%);
-                    color: $primary-color;
-                    font-size: 1.5rem;
-                    margin-bottom: 0;
-                    z-index: 2;
+/*index + home*/
 
-                
-                    @include tablet {
-                    font-size: 3rem;
-                    top:20%;
-                    left:92%;
-                    z-index: 2;
-                    color: $primary-color;
-                    }
-                
-                    @include mobile {
-                        font-size: 3rem;
-                        z-index:2;
-                        color:$primary-color;
-                        position: absolute;
-                        top: 80%;
-                        left: 48%;
-                        transform: translate(-50%, -50%);
-                    }
-                    @media screen and (min-width: 541px) and (max-width: 726px) and (max-height: 546px) {
-                        top: 60%;
-                        }
-                }
-                }
-        
-            .content-line {
-            h2.title {
-                position:absolute;
-                left:50%;
-                top:30%;
-                color:$color-blanco;
-                transform: translate(-50%, -50%);
-                font-size: 1.5rem;
-                margin-bottom: 0;
-                z-index: 2;
-
-                @include tablet {
-                    font-size: 3rem;
-                    top:30%;
-                    left:50%;
-                    z-index: 2;
-                    color: $color-blanco;
-                    }
-                
-                @include mobile {
-                        font-size: 3rem;
-                        z-index:2;
-                        color:$color-blanco;
-                        position: absolute;
-                        top: 95%;
-                        left: 48%;
-                        transform: translate(-50%, -50%);
-                    }
-                    @media screen and (max-width: 549px) and (max-height: 546px) {
-                        top: 70%;
-                        }
-                    }
-            }
-        
-
-            .infoaboutme {
-            h2 {
-                font-size: 3rem;
-                color:$color-blanco;
-                margin-bottom: 0;
-            }
-            }
-            
-            .parrafo {
-            p {
-                font-size: 2rem;
-                font-weight: bold;
-                text-align: justify;
-                color:$color-parrafo-home;
-                margin-bottom: 0;
-            }
-            }
-
-            .row {
-            .col-md-6, .col-sm-6 {
-                width: 50%;
-            }
-
-            .order-md-2 {
-                order: 2;
-            }
-            
-            .order-md-1 {
-                order: 1;
-            }
-            
-            .redes {
-                display: flex;
-                justify-content: center;
-        
-                img {
-                margin-right: 3rem;
-                position:relative;
-                left:50vh;
-                bottom:40vh;
-                }
-            }
-            
-            .text-center {
-                text-align: center;
-            }
-        
-            .text-md-right {
-                @include tablet {
-                    text-align: right;
-                }
-                }
-                
-            .copyright {
-                h2 {
-                white-space: nowrap;
-                position:relative;
-                left:102vh;
-                top:7vh;
-                font-size:25px;
-                font-family: "montserrat";
-                }
-            }
-            }
-
-
-            .col-xxl-4, .col-sm-4 {
-                background-color: #343a40;
-                color: $color-blanco;
-                text-align: justify;
-                margin-top: 4rem;
-                border-radius: 0.25rem;
-                padding: 2rem;
-                
-                h2.display-2 {
-                    font-size: 3rem;
-                    margin-bottom: 1rem;
-                }
-                
-                h5.display-5 {
-                    font-size: 1.5rem;
-                }
-
-                @include mobile {
-                padding: 1rem;
-                margin-top: 2rem;
-                max-width: 100%;
-                h2.display-2 {
-                    font-size: 2rem;
-                    margin-bottom: 0.5rem;
-                }
-                h5.display-5 {
-                    font-size: 1rem;
-                }
-                }
-                
-                
-                @include tablet {
-                padding: 1.5rem;
-                margin-top: 3rem;
-                
-                h2.display-2 {
-                    font-size: 2.5rem;
-                    margin-bottom: 0.75rem;
-                }
-                
-                h5.display-5 {
-                    font-size: 1.25rem;
-                }
-                }
-                @include desktop {
-                padding: 2rem;
-                margin-top: 4rem;
-                
-                h2.display-2 {
-                    font-size: 3rem;
-                    margin-bottom: 1rem;
-                }
-                
-                h5.display-5 {
-                    font-size: 1.5rem;
-                }
-                }
-            }
-
-.redessociales {
-        position:relative;
-        left:9vh;
-    
-    
-
-    @include mobile {
-        position:relative;
-        left:16vh;
-    }
-    @include tablet
-        {
-        position:relative;
-        left:12vh;
-        
-        @media screen and (min-width:583px) and (max-width:1069px){
-            position:relative;
-            right:20vh;
-        }
-    }
-    @include desktop {
-        position:relative;
-        left:12vh;
-
-}
-}
-
-
-.copyservices h2{
-    font-size:25px !important;
+/*imagen + eslogan*/
+.train {
+    max-width: 100%;
     position:relative;
-    right:2vh;
+        }
+.train img {
+    display:block;
+    max-width: 100%;
+    height: auto;
+}
 
+.title {
+    position:absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 5%;
+    font-size: 3rem;
+}
+    
+.content-line {
+    position:absolute;
+    color:$color-blanco;
+    font-size:3em;
+    left:42%;
+    margin-top:2px;
+    padding-top:490px;
+    white-space: nowrap;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.content-header {
+    position:absolute;
+    color:$primary-color;
+    font-size: 3rem;
+    top:82%;
+    left:40%;
+    padding-top:300px;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+}
+
+/* un poco de mi trabajo*/
+
+.aboutme {
+    color:$color-blanco;
+    padding-left:0.5rem;
+    font-size: 2.3rem;
+    text-decoration: underline;
+    }
+.parrafo {
+    font-size:1.8rem;
+    padding-left:0.5rem;
+    color:#1a1a1a;
+    font-family:$font-montserrat;
+}
+
+/* redes + copy*/
+.copycopy {
+    color:#1a1a1a;
+    font-family:$font-montserrat;
+    font-size:1.0rem;
+    padding-top:50px;
+    padding-right: 10px;
+} 
+/* imagen workouts + tip */
+.workouts {
+    position:relative;
+    display:block;
+    width: 100%;
+    height: 650px;
+    overflow: hidden
+}
+.workouts img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texto-1 {
+    font-family: $font-montserrat;
+}
+
+/*nutricion texto*/
+
+.textnutrition  {
+    font-family: $font-montserrat;
+    font-size: 3.5rem !important;
+    margin-top:29px;
+    width: 90%;
+    
+}
+.copynutrition2 {
+        h2{
+            font-size:30px;
+        }
+}
+
+/*footer nutrition*/
+.copy {
+    font-family: $font-montserrat;
+    font-size:1.0rem !important;
+}
+
+
+/*copy services*/
+#copyservices {
+    position: relative;
+    text-align: end;
+    bottom:0;
+    width: 100%;
+    h2  {
+    font-size:1.0rem;
+    font-family: $font-montserrat; 
+    }
+}
+
+/* contact + boton animacion + copy */
+
+.medios , h3 , h4  {
+    font-family:$font-montserrat;
+}
+
+
+
+.btn-enviar {
+    background-color: #e6005c;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #4d001f;
+}
+
+.btn-enviar:active {
+    animation: pulse 0.5s ease;
+}
+
+@keyframes pulse {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(0.9);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+.contenedor {
+    h2 {
+    font-family:$font-montserrat;
+    font-size:1.0rem;
+    position:relative;
+    top:50px;
+    }
+}
+
+
+/*iconos animacion*/
+.redes a:hover img {
+    filter:blur(2px);
+}
+.redessociales a:hover img {
+    filter:blur(2px);
+}
+.redes3 a:hover img {
+    filter:blur(2px);
+}
+
+/* medias queries */
+
+/*mobile*/
 
 @include mobile {
-    position:relative;
-    left:60vh;
-}
-@media screen and (min-width:569px) and (max-width:635px) {
-    position:relative;
-    right:30vh;
-    font-size:15px !important;
-}
-
-@include tablet {
-    position:relative;
-    right:10vh;
-}
-
-}
-
-
-.foodie img {
-    width: 100%;
+    .navbar {
+        width: 100%;
     }
-
-.nutrition h2 {
-    margin-top: 20px;
-    }
-    
-    @include mobile {
-        .foodie img {
+    .train {
+        max-width: 100%;
         height: auto;
         }
+    .title {
+        font-size:3rem;
+    }
+    .content-line {
+        top: auto;
+        }
     
-        .nutrition {
-        margin-top: 20px;
+    .content-header {
+        top: auto;
         }
     }
 
-    .content-about h2 {
-        font-size: 2rem;
-    }
-    
-    .content-about h3 {
-        font-size: 1.5rem;
-    }
-    
-    .content-about h4 {
-        font-size: 1.2rem;
-    }
-    
-    .info h3.title2 {
-        font-size: 1.5rem;
-    }
-    
-    @media screen and (max-width: 767px) {
-        .content-about h2 {
-        font-size: 1.5rem;
-        }
-    
-        .content-about h3 {
-        font-size: 1.2rem;
-        }
-    
-        .content-about h4 {
-        font-size: 1rem;
-        }
-    
-        .info h3.title2 {
-        font-size: 1.2rem;
-        }
-    
-        .info .col-4 {
-        margin-top: 1rem;
-        }
-    }
-    
-    @media screen and (min-width: 768px) and (max-width: 991px) {
-        .content-about h2 {
-        font-size: 1.8rem;
-        }
-    
-        .content-about h3 {
-        font-size: 1.3rem;
-        }
-    
-        .content-about h4 {
-        font-size: 1.1rem;
-        }
-    
-        .info h3.title2 {
-        font-size: 1.3rem;
-        }
-    }
-    
-    @media screen and (min-width: 992px) {
-        .content-about h2 {
-        font-size: 2rem;
-        }
-    
-        .content-about h3 {
-        font-size: 1.5rem;
-        }
-    
-        .content-about h4 {
-        font-size: 1.2rem;
-        }
-    
-        .info h3.title2 {
-        font-size: 1.5rem;
-        }
-    }
+/*tablet*/
 
+@include tablet {
+    .navbar {
+        width: 100%;
+        max-width: 100%;
+    }
+    .train {
+        width: 100%;
+        height: auto;
+    }
+        .title {
+        font-size:1.5rem;
         
+    }
+        
+        .content-line {
+            position: relative;
+            top: -50%;
+            transform: translate(-50%, -50%);
+            
+        }
+    
+        .content-header {
+            top: auto;
+        }
 
-@include mobile {
-        .container {
-        height: 100%;
-        overflow: auto;
-        margin-bottom: 1.5rem;
-        padding-bottom: 2rem;
-            .medcontact {
-                font-size: 1.25rem;
-                margin-bottom: 0.5rem;
-                height: au;
+        .texto-2 {
+            width: 100%;
+        }
+        .texto-1 {
+            width: 100%;
+        }
+
+        .foodie img {
+            max-width: 100%;
+            height: 350px;
+            object-fit: cover;
             }
+        .nutrition {
+            padding: 10px;
+            display:flex;
+            flex-wrap: wrap;
+            align-items: center;
             }
-            }
+        .textnutrition {
+            width: auto;
+            display: inline-block;
+        }
+        #copyservices {
+            position:relative;
+            top:290px;
+        }
+
+}
+
+/*desktop*/
+
+@include desktop {
+    .navbar {
+        width: 100%;
+        max-width: 100%;
+    }
+    .train {
+        width: 100%;
+        height: auto;
+    }
+
+
+}

@@ -12,56 +12,66 @@ content="AesthL es Aesthetic Life. Un entrenador personal te guiará  hacia tu b
 <meta name="keywords"
 content="HTML, ASP, JS, META, Nutrición Deportiva , Fitness, Strengh">
 
+<!-- Enlace bootstrap -->
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 <!-- Hoja de estilo -->
 <link rel="stylesheet" href="../css/main.css">
 <!-- Favicon img pagina -->
-<link rel="shortcut icon " href="../img/favicon.png">
+<link rel="shortcut icon " href="../img/faviconopti.png">
 <!-- titulo pagina -->
 <title>Fausto Gigli - Nutrición y entrenamiento personalizado </title>
-<!-- Enlace bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 
 
 </head>
 <body class="bg-danger ">
 <!-- Logo + Barra Nav incluyendo botones -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand m-5 mt-4" href="../index.html">AesthL</a>
-      <button class="navbar-toggler m-5 mb-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="../pages/home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/workouts.html">Workouts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/nutrition.html">Nutrition</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pages/services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="../pages/contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-5 order-0 m-5 mt-4 d-block" href="../index.html">AesthL</a>
+    <button class="navbar-toggler me-4 order-1 m-5 mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-auto " id="navbarNav" style="z-index: 1;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="../pages/home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="../pages/workouts.html">Workouts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/nutrition.html">Nutrition</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../pages/contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
 <!-- Medios de contacto mas formulario -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-7 col-md-7 col-sm-12 text-start my-3">
+      <div class="medios col-lg-7 col-md-7 col-sm-12 text-start my-3">
         <h3 class="medcontact fs-4 text-sm-start"><u>Medios de contacto</u></h3>
         <h4 class="medcontact2 fs-5 text-sm-start">Realizá tus consultas</h4>
-        <h4 class="medcontact3 fs-6 text-sm-start"><i>si querés obtener más información sobre mis servicios y planes podés ponerte en contacto a través de estos medios.</i></h4>
-
-      </div>
+        <h4 class="medcontact3 fs-6 text-sm-start"><i>si querés obtener más información sobre mis servicios y planes podés ponerte en contacto a través de estos medios:</i></h4>
+        <div class="redes3">
+        <a href="https://www.instagram.com/_faussg/?theme=dark">
+          <img src="../img/logo-instagram.svg" height="60" width="40" alt="insta" class="mr-3  redes-icon"></a>
+        <a href="https://www.facebook.com/idkwhaattosay">
+          <img src="../img/logo-facebook.svg" height="60" width="40" alt="fb" class="mr-3 redes-icon"></a>
+        <a href="https://api.whatsapp.com/send?phone=[2215667286]&text=[tu mensaje]">
+          <img src="../img/logo-whatsapp.svg" height="60" width="40" alt="wsp" class="mr-3 redes-icon"></a>
+        <a href="sms:2215667286">
+          <img src="../img/chatbubble-ellipses-outline.svg" height="60" width="40" alt="chat" class="redes-icon"></a>
+        </div>
+        </div>
       <div class="col-lg-5 col-md-5 col-sm-12">
         <div class="form-container col-sm-12 col-md-8 col-lg-6 mx-auto" style="max-width: 450px;">
           <h5 class="medcontact5"><u>Formulario de Contacto</u></h5>
@@ -81,7 +91,7 @@ content="HTML, ASP, JS, META, Nutrición Deportiva , Fitness, Strengh">
               <textarea name="comment" id="textinput" class="form-control" cols="50" rows="8"></textarea>
             </div>
   
-            <button type="submit" class="btn btn-primary btn-animated">Enviar</button>
+            <button type="submit" class="btn btn-primary btn-animated btn-enviar">Enviar</button>
           </form>
         </div>
       </div>
@@ -91,24 +101,17 @@ content="HTML, ASP, JS, META, Nutrición Deportiva , Fitness, Strengh">
 
 
 <!-- redes y copyright -->
-<div class="row">
-  <div class="col-md-6">
-    <div class="redes22 mb-3 d-flex align-items-start justify-content-center justify-content-md-start">
-      <img src="../img/logo-instagram.svg" height="60" width="40" alt="insta" class="mr-3 redes-icon">
-      <img src="../img/logo-facebook.svg" height="60" width="40" alt="fb" class="mr-3 redes-icon">
-      <img src="../img/logo-whatsapp.svg" height="60" width="40" alt="wsp" class="mr-3 redes-icon">
-      <img src="../img/chatbubble-ellipses-outline.svg" height="60" width="40" alt="chat" class="redes-icon">
-    </div>
-  </div>
-  <div class="col-md-6 col-md-6 text-start text-md-right">
+<div class="contenedor row">
+  <div class=" col-md-12 col-sm-12 order-md-1 text-center text-md-right justify-content-lg-end d-flex">
     <div class="wrap">
       <div class="copyright3">
         <h2 class="m-0">Copyright &copy; 2023 Fausto Gigli.
-        Todos los derechos reservados</h2>
+          Todos los derechos reservados</h2>
       </div>
     </div>
   </div>
 </div>
+
 
 
 

@@ -14,6 +14,7 @@ body {
   overflow-x: hidden;
 }
 
+/* navbar + logo */
 .navbar {
   background-color: #212529;
   height: 120px;
@@ -69,333 +70,252 @@ body {
   color: #fff;
 }
 
+/*index + home*/
+/*imagen + eslogan*/
 .train {
+  max-width: 100%;
   position: relative;
 }
+
 .train img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.content-header h3.title {
+.title {
   position: absolute;
+  top: 90%;
   left: 50%;
-  top: 25%;
   transform: translate(-50%, -50%);
-  color: #B93737;
-  font-size: 1.5rem;
-  margin-bottom: 0;
-  z-index: 2;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .content-header h3.title {
-    font-size: 3rem;
-    top: 20%;
-    left: 92%;
-    z-index: 2;
-    color: #B93737;
-  }
-}
-@media screen and (min-width: 576px) {
-  .content-header h3.title {
-    font-size: 3rem;
-    z-index: 2;
-    color: #B93737;
-    position: absolute;
-    top: 80%;
-    left: 48%;
-    transform: translate(-50%, -50%);
-  }
-}
-@media screen and (min-width: 541px) and (max-width: 726px) and (max-height: 546px) {
-  .content-header h3.title {
-    top: 60%;
-  }
-}
-
-.content-line h2.title {
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  color: #fff;
-  transform: translate(-50%, -50%);
-  font-size: 1.5rem;
-  margin-bottom: 0;
-  z-index: 2;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .content-line h2.title {
-    font-size: 3rem;
-    top: 30%;
-    left: 50%;
-    z-index: 2;
-    color: #fff;
-  }
-}
-@media screen and (min-width: 576px) {
-  .content-line h2.title {
-    font-size: 3rem;
-    z-index: 2;
-    color: #fff;
-    position: absolute;
-    top: 95%;
-    left: 48%;
-    transform: translate(-50%, -50%);
-  }
-}
-@media screen and (max-width: 549px) and (max-height: 546px) {
-  .content-line h2.title {
-    top: 70%;
-  }
-}
-
-.infoaboutme h2 {
+  margin-bottom: 5%;
   font-size: 3rem;
+}
+
+.content-line {
+  position: absolute;
   color: #fff;
-  margin-bottom: 0;
-}
-
-.parrafo p {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: justify;
-  color: #262626;
-  margin-bottom: 0;
-}
-
-.row .col-md-6, .row .col-sm-6 {
-  width: 50%;
-}
-.row .order-md-2 {
-  order: 2;
-}
-.row .order-md-1 {
-  order: 1;
-}
-.row .redes {
-  display: flex;
-  justify-content: center;
-}
-.row .redes img {
-  margin-right: 3rem;
-  position: relative;
-  left: 50vh;
-  bottom: 40vh;
-}
-.row .text-center {
-  text-align: center;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .row .text-md-right {
-    text-align: right;
-  }
-}
-.row .copyright h2 {
+  font-size: 3em;
+  left: 42%;
+  margin-top: 2px;
+  padding-top: 490px;
   white-space: nowrap;
-  position: relative;
-  left: 102vh;
-  top: 7vh;
-  font-size: 25px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.content-header {
+  position: absolute;
+  color: #B93737;
+  font-size: 3rem;
+  top: 82%;
+  left: 40%;
+  padding-top: 300px;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+
+/* un poco de mi trabajo*/
+.aboutme {
+  color: #fff;
+  padding-left: 0.5rem;
+  font-size: 2.3rem;
+  text-decoration: underline;
+}
+
+.parrafo {
+  font-size: 1.8rem;
+  padding-left: 0.5rem;
+  color: #1a1a1a;
   font-family: "montserrat";
 }
 
-.col-xxl-4, .col-sm-4 {
-  background-color: #343a40;
-  color: #fff;
-  text-align: justify;
-  margin-top: 4rem;
-  border-radius: 0.25rem;
-  padding: 2rem;
-}
-.col-xxl-4 h2.display-2, .col-sm-4 h2.display-2 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-.col-xxl-4 h5.display-5, .col-sm-4 h5.display-5 {
-  font-size: 1.5rem;
-}
-@media screen and (min-width: 576px) {
-  .col-xxl-4, .col-sm-4 {
-    padding: 1rem;
-    margin-top: 2rem;
-    max-width: 100%;
-  }
-  .col-xxl-4 h2.display-2, .col-sm-4 h2.display-2 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  .col-xxl-4 h5.display-5, .col-sm-4 h5.display-5 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .col-xxl-4, .col-sm-4 {
-    padding: 1.5rem;
-    margin-top: 3rem;
-  }
-  .col-xxl-4 h2.display-2, .col-sm-4 h2.display-2 {
-    font-size: 2.5rem;
-    margin-bottom: 0.75rem;
-  }
-  .col-xxl-4 h5.display-5, .col-sm-4 h5.display-5 {
-    font-size: 1.25rem;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .col-xxl-4, .col-sm-4 {
-    padding: 2rem;
-    margin-top: 4rem;
-  }
-  .col-xxl-4 h2.display-2, .col-sm-4 h2.display-2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  .col-xxl-4 h5.display-5, .col-sm-4 h5.display-5 {
-    font-size: 1.5rem;
-  }
+/* redes + copy*/
+.copycopy {
+  color: #1a1a1a;
+  font-family: "montserrat";
+  font-size: 1rem;
+  padding-top: 50px;
+  padding-right: 10px;
 }
 
-.redessociales {
+/* imagen workouts + tip */
+.workouts {
   position: relative;
-  left: 9vh;
-}
-@media screen and (min-width: 576px) {
-  .redessociales {
-    position: relative;
-    left: 16vh;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .redessociales {
-    position: relative;
-    left: 12vh;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 583px) and (max-width: 1069px) {
-  .redessociales {
-    position: relative;
-    right: 20vh;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .redessociales {
-    position: relative;
-    left: 12vh;
-  }
+  display: block;
+  width: 100%;
+  height: 650px;
+  overflow: hidden;
 }
 
-.copyservices h2 {
-  font-size: 25px !important;
+.workouts img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.texto-1 {
+  font-family: "montserrat";
+}
+
+/*nutricion texto*/
+.textnutrition {
+  font-family: "montserrat";
+  font-size: 3.5rem !important;
+  margin-top: 29px;
+  width: 90%;
+}
+
+.copynutrition2 h2 {
+  font-size: 30px;
+}
+
+/*footer nutrition*/
+.copy {
+  font-family: "montserrat";
+  font-size: 1rem !important;
+}
+
+/*copy services*/
+#copyservices {
   position: relative;
-  right: 2vh;
-}
-@media screen and (min-width: 576px) {
-  .copyservices h2 {
-    position: relative;
-    left: 60vh;
-  }
-}
-@media screen and (min-width: 569px) and (max-width: 635px) {
-  .copyservices h2 {
-    position: relative;
-    right: 30vh;
-    font-size: 15px !important;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .copyservices h2 {
-    position: relative;
-    right: 10vh;
-  }
-}
-
-.foodie img {
+  text-align: end;
+  bottom: 0;
   width: 100%;
 }
-
-.nutrition h2 {
-  margin-top: 20px;
+#copyservices h2 {
+  font-size: 1rem;
+  font-family: "montserrat";
 }
 
-@media screen and (min-width: 576px) {
-  .foodie img {
+/* contact + boton animacion + copy */
+.medios, h3, h4 {
+  font-family: "montserrat";
+}
+
+.btn-enviar {
+  background-color: #e6005c;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #4d001f;
+}
+
+.btn-enviar:active {
+  animation: pulse 0.5s ease;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.contenedor h2 {
+  font-family: "montserrat";
+  font-size: 1rem;
+  position: relative;
+  top: 50px;
+}
+
+/*iconos animacion*/
+.redes a:hover img {
+  filter: blur(2px);
+}
+
+.redessociales a:hover img {
+  filter: blur(2px);
+}
+
+.redes3 a:hover img {
+  filter: blur(2px);
+}
+
+/* medias queries */
+/*mobile*/
+@media screen and (max-width: 276px) {
+  .navbar {
+    width: 100%;
+  }
+  .train {
+    max-width: 100%;
     height: auto;
   }
+  .title {
+    font-size: 3rem;
+  }
+  .content-line {
+    top: auto;
+  }
+  .content-header {
+    top: auto;
+  }
+}
+/*tablet*/
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+  }
+  .train {
+    width: 100%;
+    height: auto;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .content-line {
+    position: relative;
+    top: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .content-header {
+    top: auto;
+  }
+  .texto-2 {
+    width: 100%;
+  }
+  .texto-1 {
+    width: 100%;
+  }
+  .foodie img {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
   .nutrition {
-    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .textnutrition {
+    width: auto;
+    display: inline-block;
+  }
+  #copyservices {
+    position: relative;
+    top: 290px;
   }
 }
-.content-about h2 {
-  font-size: 2rem;
-}
-
-.content-about h3 {
-  font-size: 1.5rem;
-}
-
-.content-about h4 {
-  font-size: 1.2rem;
-}
-
-.info h3.title2 {
-  font-size: 1.5rem;
-}
-
-@media screen and (max-width: 767px) {
-  .content-about h2 {
-    font-size: 1.5rem;
-  }
-  .content-about h3 {
-    font-size: 1.2rem;
-  }
-  .content-about h4 {
-    font-size: 1rem;
-  }
-  .info h3.title2 {
-    font-size: 1.2rem;
-  }
-  .info .col-4 {
-    margin-top: 1rem;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .content-about h2 {
-    font-size: 1.8rem;
-  }
-  .content-about h3 {
-    font-size: 1.3rem;
-  }
-  .content-about h4 {
-    font-size: 1.1rem;
-  }
-  .info h3.title2 {
-    font-size: 1.3rem;
-  }
-}
+/*desktop*/
 @media screen and (min-width: 992px) {
-  .content-about h2 {
-    font-size: 2rem;
+  .navbar {
+    width: 100%;
+    max-width: 100%;
   }
-  .content-about h3 {
-    font-size: 1.5rem;
-  }
-  .content-about h4 {
-    font-size: 1.2rem;
-  }
-  .info h3.title2 {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 576px) {
-  .container {
-    height: 100%;
-    overflow: auto;
-    margin-bottom: 1.5rem;
-    padding-bottom: 2rem;
-  }
-  .container .medcontact {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    height: au;
+  .train {
+    width: 100%;
+    height: auto;
   }
 }
 
